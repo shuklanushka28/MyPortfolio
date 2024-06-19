@@ -36,36 +36,95 @@
         </div>
       </div>
     </nav>
-    <section id ="profile">
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpeg" alt=" Anushka Shukla " />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'am</p>
+        <h1 class="title">Anushka Shukla</h1>
+        <p class="section__text__p2">Data Analyist</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href('./#contact')">
+            Contact me
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My linkedin profile "
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/anushka-shukla-039b04221/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My GitHub Profile"
+            class="icon"
+            onclick="location.href='https://github.com/shuklanushka28/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.jpeg" alt=" Anushka Shukla ">
+          <img
+            src="./assets/myprofile-pic.jpg"
+            alt="Profile Picture"
+            class="about-pic"
+          />
         </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello I'am</p>
-            <h1 class="title" >Anushka Shukla</h1>
-            <p class="section__text__p2">Data Analyist</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" 
-                onclick="window.open('./assets/resume.pdf')">Download CV
-            </button>
-                <button class="btn btn-color-1" 
-                onclick="location.href('./#contact')"> Contact me 
-            </button>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience Icon"
+                class="icon"
+              />
+              <h3 class="experience"></h3>
+              <p>
+                2+ years <br />
+                Data Analyist
+              </p>
             </div>
-            <div id="socials-container">
-
-                <img src="./assets/linkedin.png" 
-                alt="My linkedin profile " 
-                class="icon" 
-                onclick="location.href='https://www.linkedin.com/in/anushka-shukla-039b04221/'"/>
-                <img src="./assets/github.png" 
-                alt="My GitHub Profile" 
-                class="icon" 
-                onclick="location.href='https://github.com/shuklanushka28/'"/>
-                
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3 class="Education"></h3>
+              <p>
+                B.tech-CSE with specialization in Dig Data analysis <br />
+                phd
+              </p>
             </div>
+          </div>
+          <div class="text-container">
+            <p>
+              -------------------------------------
+              -------------------------------------
+              -------------------------------------
+            </p>
+          </div>
         </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./experience'"
+      />
     </section>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
